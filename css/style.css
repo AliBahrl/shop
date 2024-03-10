@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+body{
+    font-family: "Cairo", sans-serif;
+    background-color: #f8f8f8;
+}
+/* stat header */
+.header{
+    background-color: #080808;
+    color: #f8f8f8;
+    height: 50px;
+    line-height: 50px;
+}
+.header a{
+    float: right;
+    margin-top: 5px;
+}
+.header_icon a{
+    color: #f8f8f8;
+    margin-right: 13px;
+    font-size: 25px;
+}
+.fa-facebook:hover{
+    color: blue;
+    font-weight: 900;
+}
+.fa-whatsapp:hover{
+    color: green;
+    font-weight: 900;
+}
+.fa-instagram:hover{
+    color: blueviolet;
+    font-weight: 900;
+}
+.fa-linkedin:hover{
+    color: rgb(81, 81, 250);
+    font-weight: 900;
+}
+.navbar {
+    background-color: #f8f8f8;
+}
+/* end header */
+/* satrt slider */
+.carousel{
+    border-bottom: 2px solid #080808;
+}
+.carousel-indicators li{
+    height: 30px;
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.329);
+    position: absolute;
+    z-index: 1;
+}
+/* end slider */
+.card_lap {
+    border-radius: 30px;
+    
+}
+.card_sixe h5{
+    font-weight:900 ;
+}
+.card_sixe .money{
+    color: red;
+    font-weight: 899;
+}
+/* start feutures */
+.feutures {
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+}
+.feutures .card{
+    background-color: #e4e4e4;
+    height: 100%;
+    width: 8px;
+
+
+
+}
+.feutures .card:hover{
+    background-color: #f8f8f8;
+    transition: 2s;
+    transform:scale(1.1);
+
+}
+
+.feutures i{
+    width: 100px ;
+    height: 100px;
+    background-color: #bfbfbf;
+    line-height: 100px;
+    color:#080808;
+    font-size: 40px;
+    align-items: center;
+    margin: 5px;
+}
+
+.feutures h3{
+    display: inline-block;
+    background-color: #bfbfbf;
+    color: #080808;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  
+}
+.feutures p{
+    color: #080808;
+    line-height: 1.8;
+}
+.feutures h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+/* end feutures */
+.con
+/* start our-team */
+.our-team {
+    height: 800px;
+    border-top: 2px solid black;
+    padding: 20px;
+
+}
+.our-team .card-body a{
+    color: #080808;
+}
+.card-title {
+    color: #080808;
+}
+/* end our-team */
+/* start sell */
+.sell_items .row{
+    padding-top: 50px;
+}
+.sell_items .card{
+    background-color: #f8f8f8;
+}
+/* end sell */
+/* start statistic */
+.statistic {
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/statistic/gradient.avif);
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.statistic .overlay-s{
+    padding-top: 110px;
+    background-color: #e4e4e49f;
+
+    width: 100%;
+    height: 100%;
+}
+.statistic i{
+    color: #080808;
+    margin-bottom: 20px;
+}
+
+.statistic h3{
+    color: #080808;
+}
+.statistic p{
+    color: #080808;
+    font-size: 60px;
+}
+/* end statistic */
+/* start our-customers */
+.our_customers{
+    margin-top: 100px;
+    background-color: #eee ;
+    line-height: 200px;
+    background-image: url(../images/pictures/contr.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 3px solid #080808;
+}
+.our_customers img {
+    padding-bottom: 80px;
+}
+/* end our-customers */
+/* <!-- start recnt news --> */
+.recent_news .btn-danger {
+    background-color: cadetblue;
+    border-color: cadetblue;
+}
+.recent_news .btn-danger:hover {
+    background-color: red;
+
+}
+/* <!-- end recnt news --> */
+/* <!-- start footer --> */
+footer {
+    background-color: #080808;
+    padding-top: 30px;
+    margin-top: 150px;
+    
+}
+footer h2 {
+    color: #f8f8f8;
+}
+footer li {
+    color: #f8f8f8;
+}
+footer a {
+    color: #f8f8f8;
+}
+footer a:hover{
+    color: rgb(255, 183, 183);
+}
+footer ul li {
+    list-style: none;
+}
+/* <!-- end footer --> */
+/* start jumbotron */
+.jumbotron {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.jumbotron .blog_info {
+    flex: 2;
+}
+.jumbotron .blog_img {
+    flex: 1;
+}
+
+/* emd jumbotron */
+/* start blog_details */
+.blog_details p {
+    line-height: 2;
+    padding: 10px
+}
+/* end blog_details */
+.courses img:hover{
+    transform: scale(1.1);
+    transition:2s;
+}
+.contact .card-contact {
+    background-color: #f8f8f8;
+}
